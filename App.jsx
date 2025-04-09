@@ -14,11 +14,9 @@ const animalData = [
   { type: "red panda", media: "https://media.giphy.com/media/26gsrrkXz1P4i6vAA/giphy.gif", message: "레서판다처럼 여유롭게." },
   { type: "duck", media: "https://media.giphy.com/media/l0HlNQ03J5JxX6lva/giphy.gif", message: "오리처럼 둥실둥실 기분 좋게!" },
   { type: "chick", media: "https://media.giphy.com/media/3oEduRMYbE7r54uE0g/giphy.gif", message: "병아리처럼 순수한 마음으로." },
-  { type: "koala", media: "https://media.giphy.com/media/5VKbvrjxpVJCM/giphy.gif", message: "코알라처럼 느긋하게 쉬어가자." },
-  // ... 더 많은 데이터 (임시로 복제하여 100종 이상 채울 수 있음)
+  { type: "koala", media: "https://media.giphy.com/media/5VKbvrjxpVJCM/giphy.gif", message: "코알라처럼 느긋하게 쉬어가자." }
 ];
 
-// 무작위로 1개 선택 함수
 function getRandomAnimal(data) {
   return data[Math.floor(Math.random() * data.length)];
 }
